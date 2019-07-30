@@ -1,0 +1,20 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": {
+      "flip-v": true
+    },
+    "model": "tutorial:redoniteore.obj",
+    "textures": {
+      "#vein": "tutorial:blocks/redoniteore_ore",
+      "#box": "tutorial:blocks/stone"
+    }
+  },
+
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": "forge:default-block"
+    }]
+  }
+}
